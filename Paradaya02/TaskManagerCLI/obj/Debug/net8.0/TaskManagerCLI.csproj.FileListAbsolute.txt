@@ -1,0 +1,4 @@
+D:\WEBDEV\ParadayaSE\Paradaya02\TaskManagerCLI\obj\Debug\net8.0\TaskManagerCLI.GeneratedMSBuildEditorConfig.editorconfig
+D:\WEBDEV\ParadayaSE\Paradaya02\TaskManagerCLI\obj\Debug\net8.0\TaskManagerCLI.AssemblyInfoInputs.cache
+D:\WEBDEV\ParadayaSE\Paradaya02\TaskManagerCLI\obj\Debug\net8.0\TaskManagerCLI.AssemblyInfo.cs
+D:\WEBDEV\ParadayaSE\Paradaya02\TaskManagerCLI\obj\Debug\net8.0\TaskManagerCLI.csproj.CoreCompileInputs.cache
