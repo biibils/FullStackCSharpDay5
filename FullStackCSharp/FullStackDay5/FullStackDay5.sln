@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paracommerce", "paracommerce\paracommerce.csproj", "{D66147BE-C5F8-417E-B343-5F1D1D4E6EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentMVC", "StudentMVC\StudentMVC.csproj", "{B78E0E77-6EE7-46E1-98ED-FA677C00487D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorClientApp", "BlazorClientApp\BlazorClientApp.csproj", "{956BE362-EA6B-4700-9F38-0DDC9472E366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D66147BE-C5F8-417E-B343-5F1D1D4E6EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66147BE-C5F8-417E-B343-5F1D1D4E6EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66147BE-C5F8-417E-B343-5F1D1D4E6EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66147BE-C5F8-417E-B343-5F1D1D4E6EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78E0E77-6EE7-46E1-98ED-FA677C00487D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78E0E77-6EE7-46E1-98ED-FA677C00487D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78E0E77-6EE7-46E1-98ED-FA677C00487D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78E0E77-6EE7-46E1-98ED-FA677C00487D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956BE362-EA6B-4700-9F38-0DDC9472E366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956BE362-EA6B-4700-9F38-0DDC9472E366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956BE362-EA6B-4700-9F38-0DDC9472E366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956BE362-EA6B-4700-9F38-0DDC9472E366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
