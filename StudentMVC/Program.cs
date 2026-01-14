@@ -9,15 +9,23 @@ var connectionString =
     builder.Configuration.GetConnectionString("DefaultConnection")
     ?? throw new InvalidOperationException("Connection string 'DefaultConnection' ");
 
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
-builder.Services.AddControllers();
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(policy =>
-    {
-        policy.WithOrigins("http://localhost:5051").AllowAnyHeader().AllowAnyMethod();
-    });
+    options.AddPolicy(
+        "AllowAll",
+        policy =>
+        {
+            policy
+                .WithOrigins("http://localhost:5051") // URL Blazor WASM kamu
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials(); // Jika butuh cookies/authentication
+        }
+    );
 });
+
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddControllers();
 
 // builder.Services.AddEndpointsApiExplorer(); // untuk Swagger
 
@@ -78,6 +86,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowAll");
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
